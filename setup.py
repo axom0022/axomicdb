@@ -1,4 +1,3 @@
-cat > setup.py << 'EOF'
 from setuptools import setup, find_packages
 
 setup(
@@ -6,7 +5,7 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     description='A Python database library with import/export features to store your data for different-device use!',
-    author='Your Name',
+    author='Axom',
     author_email='noemail@protonmail',
     url='https://github.com/axom0022/axomicdb',
     classifiers=[
@@ -16,4 +15,4 @@ setup(
     ],
     python_requires='>=3.6',
 )
-EOF
+
