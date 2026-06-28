@@ -1,4 +1,4 @@
-cat > axomicdb/database.py << 'EOF'
+
 import json
 import os
 import csv
